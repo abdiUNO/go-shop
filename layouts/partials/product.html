@@ -1,0 +1,20 @@
+<div class="card my-4 border-0" style="width: 18rem;">
+  <img class="product-image" src="{{ .image }}" alt="">
+  <div class="card-body">
+    <h5 class="card-title">{{ .name }}</h5>
+
+    <p class="card-text">{{ .description }}</p>
+    <div class="product__button-container">
+      <span class="product__price mr-5" >${{ .price }}</span>
+      <button
+              class="snipcart-add-item buy-button"
+              data-item-id="{{ .id }}"
+              data-item-name="{{ .name }}"
+              data-item-price="{{ .price }}"
+              data-item-url="{{ .product_url }}"
+              data-item-description="{{ .description }}">
+        Add to cart
+      </button>
+    </div>
+  </div>
+</div>

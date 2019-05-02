@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+
+# directories
+node_modules/
+public/
+
+
+# Environment variables file
+.env
+
+# Misc
+.idea
+.DS_Store

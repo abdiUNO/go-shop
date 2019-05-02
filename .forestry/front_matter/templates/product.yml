@@ -1,0 +1,36 @@
+---
+label: product
+hide_body: true
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: ID
+- name: name
+  type: text
+  config:
+    required: false
+  label: NAME
+- name: price
+  type: text
+  config:
+    required: false
+  label: PRICE
+- name: description
+  type: text
+  config:
+    required: false
+  label: DESCRIPTION
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: IMAGE
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: PRODUCT URL
+pages:
+- content/products/pysch-shirt.md
