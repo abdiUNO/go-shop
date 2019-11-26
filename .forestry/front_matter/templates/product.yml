@@ -33,5 +33,5 @@ fields:
     required: false
   label: PRODUCT URL
 pages:
-- content/products/file.md
 - content/products/pysch-shirt.md
+- content/products/file.md
